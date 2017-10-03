@@ -6,5 +6,9 @@
 <hr>
 
 <div>
-
+  <ul>
+    {{#each model as |recipe|}}
+      {{recipe-tile recipe=recipe}}
+    {{/each}}
+  </ul>
 </div>

@@ -17,6 +17,15 @@ module.exports = function(environment) {
         Date: false
       }
     },
+    firebase:
+    {
+    apiKey: "AIzaSyCAXNAySrECVlMeggg0Oo0Yq3RI_bcC030",
+    authDomain: "food-times-bcd95.firebaseapp.com",
+    databaseURL: "https://food-times-bcd95.firebaseio.com",
+    projectId: "food-times-bcd95",
+    storageBucket: "",
+    messagingSenderId: "840853445733"
+  },
 
     APP: {
       // Here you can pass flags/options to your application instance

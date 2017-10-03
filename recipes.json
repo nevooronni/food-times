@@ -1,0 +1,17 @@
+{ "recipes": [{
+    "foodName": "Veruca Salt",
+    "ingredients": "San Francisco",
+    "instructions": "Estate",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/c/cb/Crane_estate_(5).jpg"
+  }, {
+    "foodName": "Mike Teavee",
+    "ingredients": "Seattle",
+    "instructions": "Condo",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/0/0e/Alfonso_13_Highrise_Tegucigalpa.jpg"
+  }, {
+    "foodName": "Violet Beauregarde",
+    "ingredients": "Portland",
+    "instructions": "Apartment",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/f7/Wheeldon_Apartment_Building_-_Portland_Oregon.jpg"
+  }]
+}
