@@ -1,4 +1,4 @@
 <li>
-  <img src={{recipe.image}}> <br> {{recipe.foodName}}
-  {{edit-recipe recipe=recipe edit="edit"}}
-</li>
+  {{#link-to 'recipe' recipe.id}}{{recipe.foodName}}<img src={{recipe.image}}>
+  {{/link-to}}
+</li><br>
