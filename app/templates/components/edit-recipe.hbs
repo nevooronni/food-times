@@ -1,0 +1,30 @@
+{{#if editRecipeForm}}
+  <h4>Edit {{recipe.foodName}}</h4>
+  <div>
+    <form>
+      <div class="form-group">
+        <label for="foodName">Food Name</label>
+        {{input value=foodName id="foodName" placeholder=recipe.foodName}}
+      </div>
+
+      <div class="form-group">
+        <label for="ingredients">Ingredients</label>
+        {{input value=type id="ingredients" placeholder=recipe.ingredients}}
+      </div>
+
+      <div class="form-group">
+        <label for="instructions">Instructions</label>
+        {{input value=city id="instructions" placeholder=recipe.instructions}}
+      </div>
+
+      <div class="form-group">
+        <label for="image">Image URL</label>
+        {{input value=image id="image" placeholder=rental.image}}
+      </div>
+
+      <button {{action 'edit' recipe}}>Submit</button>
+    </form>
+  </div>
+{{else}}
+  <button {{action 'editRecipeForm'}}>Edit</button>
+{{/if}}
