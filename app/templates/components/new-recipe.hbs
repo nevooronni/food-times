@@ -22,10 +22,10 @@
       {{input value=image id="image"}}
     </div>
 
-    <button {{action 'saveRecipe1'}}>Save</button>
+    <button type="button" class="btn btn-success" {{action 'saveRecipe1'}}>Save</button>
   </form>
 </div>
   <p></p>
   {{else}}
-    <button {{action 'recipeFormShow'}}>New Recipe</button>
+    <button type="button" class="btn btn-primary" {{action 'recipeFormShow'}}>New Recipe</button>
   {{/if}}

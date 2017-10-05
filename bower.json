@@ -1,0 +1,17 @@
+{
+  "name": "food-times",
+  "description": "Small description for food-times goes here",
+  "main": "",
+  "authors": [
+    "khalid hassan <abuuanas30@hotmail.com>"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/nevooronni/food-times",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
