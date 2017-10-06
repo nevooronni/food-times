@@ -7,8 +7,9 @@
 <div>
   <ul>
     {{#each model as |recipe|}}
-      {{recipe-tile recipe=recipe edit="edit"}}
+      {{ recipe-tile recipe=recipe edit="edit"}}
     {{/each}}
+    {{look-up-form recipeLookup="recipeLookup"}}
   </ul>
 
 

@@ -1,0 +1,15 @@
+<ul>
+  {{#each model as |recipe|}}
+    <li>
+      {{log recipe}}
+      <img src="{{recipe.image_url}}" alt="{{recipe.title}}">
+      <a href="{{recipe.publisher_url}}"></a>
+      <br>
+      <h5>{{recipe.social_rank}} Social ranking</h5>
+      <br>
+      <a href="{{recipe.source_url}}">CLICK HERE  FOR MORE RECIPE DETAILS </a>
+      <br>
+
+    </li>
+  {{/each}}
+</ul>
