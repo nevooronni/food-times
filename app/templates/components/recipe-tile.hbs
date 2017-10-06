@@ -1,4 +1,5 @@
-<li>
-  {{#link-to 'recipe' recipe.id}}{{recipe.foodName}}<img src={{recipe.image}}>
+<div id="new" class="col-md-4">
+  {{#link-to 'recipe' recipe.id}}<img src={{recipe.image}}  height="300px" width="495px">
+  <div id="food"><p id="name" class="text-center">{{recipe.foodName}}</p></div>
   {{/link-to}}
-</li><br>
+</div>

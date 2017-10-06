@@ -5,6 +5,16 @@ export default Ember.Component.extend({
   actions: {
     recipeFormShow() {
       this.set('addNewRecipe', true);
+    },
+    saveRecipe1(recipe) {
+      var params = {
+        foodName: this.get('foodName'),
+        ingredients: this.get('ingredients'),
+        instructions: this.get('instructions'),
+        image: this.get('image'),
+      };
+      this.set('addNewRecipe', false);
+      this.sendAction('saveRecipe2', recipe, params);
     }
   }
 });

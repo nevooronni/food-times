@@ -1,9 +1,26 @@
-<div class="navbar">
-  <div class="row">
-    <h2 class="col-xs-6">{{#link-to "index"}}Home{{/link-to}}</h2>
-    <h2 class="col-xs-6">{{#link-to "contact"}}Contact{{/link-to}}</h2>
-    <h2 class="col-xs-6">{{#link-to "about"}}about{{/link-to}}</h2>
-  </div>
-</div>
 
-{{outlet}}
+<div class="container-fluid">
+  <div class="row fixed-top" id="row1">
+    <h1 id="psykhe">FOODTIMES</h1>
+    {{#link-to "contact"}}<h2 id="contact">Contact</h2>{{/link-to}}
+    {{#link-to "about"}}<h2 id="about">About</h2>{{/link-to}}
+    <h1 id="browse">Browse</h1>
+    <span id="icons">
+      <i class=""></i>
+      <i class=""></i>
+      <i class=""></i>
+    </span>
+      <i class="glyphicon glyphicon-option-horizontal"></i>
+  </div>
+
+  <form id="form1">
+    <input type="text" name="search" value="Search recipes" id="search">
+    <button type="submit" id="btn1"><i class="glyphicon glyphicon-search"></i></button>
+  </form>
+
+  <div id="overflow">
+    {{outlet}}
+  </div>
+
+
+</div>

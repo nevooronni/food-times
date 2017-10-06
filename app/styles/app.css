@@ -1,0 +1,307 @@
+#row1 {
+  margin-bottom: 0px;
+  position:fixed;
+  overflow: hidden;
+  z-index: 3;
+  width: 100%;
+  background-color: #222;
+  height: 70px;
+  border-bottom-style: solid;
+  border-bottom-width: 3px;
+  border-bottom-color: #ebeced;
+}
+
+#form1 {
+  float: right;
+  margin-top: -49px;
+  margin-right: 50px;
+}
+
+#search {
+  z-index: 4;
+  position: fixed;
+  top: 15px;
+  left: 10px;
+  height: 40px;
+  width: 340px;
+  font-size: 18px;
+  border-style: solid;
+  border-color: grey;
+  border-width: 1px;
+  border-radius: 3px;
+  padding-left: 40px;
+  color: grey;
+  background-color: #555;
+}
+
+#btn1 {
+  background-color: transparent;
+  border-color: transparent;
+  position: absolute;
+  top: 17px;
+  left: 285px;
+}
+
+#psykhe {
+  position: absolute;
+  top: 0px;
+  left: 600px;
+  color: #FFFFFF;
+  font-size: 30px;
+  font-weight: bold;
+  font-family: 'PT Sans', sans-serif;
+}
+
+#browse {
+  color: #FFFFFF;
+  position: absolute;
+  top: 9px;
+  right: 550px;
+  font-size: 18px;
+}
+
+#contact {
+  position: absolute;
+  top: 9px;
+  right: 450px;
+  color: #FFFFFF;
+  font-size: 18px;
+}
+
+#about {
+  position: absolute;
+  top: 9px;
+  right: 370px;
+  color: #FFF;
+  font-size: 18px;
+}
+
+#recipe {
+  z-index: 4;
+  position: fixed;
+  top: 15px;
+  right: 170px;
+  background-color: #27AE60;
+  color: #FFFFFF;
+  height: 40px;
+  width: 180px;
+  font-size: 18px;
+}
+
+.glyphicon-search {
+  z-index: 4;
+  position: fixed;
+  top: 27px;
+  left: 320px;
+  color: #FFFFFF;
+  opacity: 0.50;
+}
+
+.glyphicon-search:hover {
+  color: GRE;
+  cursor: pointer;
+}
+
+#search:hover {
+  background-color: #FFFFFF;
+}
+
+#footer {
+  background-color: #555;
+  height: 300px;
+  margin-top: 1100px;
+}
+
+#services {
+  position: absolute;
+  top: 1300px;
+  left: 200px
+}
+
+.color {
+  color: #FFF;
+  display: block;
+}
+
+#more {
+  position: absolute;
+  top: 1300px;
+  left: 400px;
+}
+
+#photography {
+  position: absolute;
+  top: 1300px;
+  left: 650px;
+}
+
+#follow {
+  position: absolute;
+  top: 1300px;
+  left: 850px;
+  color: blue;
+}
+
+#block {
+  display: block;
+}
+
+#well {
+  margin-top: 95px;
+  margin-bottom: 40px;
+}
+
+#welcome {
+  font-size: 32px;
+  font-weight: bold;
+}
+
+#paragraph {
+  font-size: 15px;
+}
+
+#recipeForm {
+  z-index: 4;
+  background-color: #FFFFFF;
+  position: fixed;
+  top: 70px;
+  border-style: solid;
+  border-color: grey;
+  border-width: 1px;
+  right: 160px;
+  height: 300px;
+  width: 300px;
+  border-radius: 5px;
+}
+
+#formRecipe {
+  position: absolute;
+  top: 40px;
+  right: 30px;
+}
+
+#save {
+  font-size: 15px;
+  margin-top: 10px;
+  margin-left: 44px;
+  height: 32px;
+  width: 150px;
+  color: #FFFFFF;
+  background-color: #27AE60;
+}
+
+#in {
+  margin-left: -5px;
+}
+
+.form-group {
+  color: grey;
+}
+
+#food {
+  background-color: #D3D3D3;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #D3D3D3;
+  height: 40px;
+  width: 495px;
+}
+
+#food:hover {
+  background-color: #FFFFFF;
+}
+
+#display {
+  margin-left: -15px;
+}
+
+#new {
+  margin-bottom: 10px;
+}
+
+#name {
+  color: black;
+  font-size: 17px;
+}
+
+#heart:hover, #license:hover, #share:hover {
+  background-color:  #D3D3D3;
+}
+
+.glyphicon-heart {
+  margin-top: 3px;
+  margin-right: 8px;
+  color: black;
+}
+
+#heart {
+  position: absolute;
+  top: 99px;
+  left: 390px;
+  width: 110px;
+  border-width: 2px;
+  border-style: solid;
+  border-color: #D3D3D3;
+  background-color: #FFFFFF;
+  color: black;
+}
+
+#license {
+  position: absolute;
+  top: 99px;
+  left: 510px;
+  width: 110px;
+  border-width: 2px;
+  border-style: solid;
+  border-color: #D3D3D3;
+  background-color: #FFFFFF;
+}
+
+#share {
+  position: absolute;
+  top: 99px;
+  left: 630px;
+  width: 60px;
+  border-width: 2px;
+  border-style: solid;
+  border-color: #D3D3D3;
+  background-color: #FFFFFF;
+}
+
+#media {
+  position: absolute;
+  top: 136px;
+  left: 630px;
+  height: 167px;
+  width: 160px;
+  border-style: solid;
+  border-radius: 1px;
+  border-color:  #D3D3D3;
+  background-color: #FFFFFF;
+  z-index: 4;
+}
+
+.list {
+  font-size: 16px;
+  color: grey;
+  margin-left: 40px;
+}
+
+fa fa-facebook-f {
+  color: black;
+}
+
+.glyphicon-share-alt {
+  color: black;
+}
+
+#like {
+  color: black;
+}
+
+.fa-facebook-square {
+  color: blue;
+}
+
+#move {
+}

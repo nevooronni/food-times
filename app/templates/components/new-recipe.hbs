@@ -1,7 +1,6 @@
 {{#if addNewRecipe}}
-<h1>New Recipe</h1>
-<div>
-  <form>
+<div id="recipeForm">
+  <form id="formRecipe">
     <div class="form-group">
       <label for="foodName">Food Name</label>
       {{input value=foodName id="foodName"}}
@@ -12,7 +11,7 @@
       {{input value=ingredients id="ingredients"}}
     </div>
 
-    <div class="form-group">
+    <div class="form-group" id="in">
       <label for="instructions">Instructions</label>
       {{input value=instructions id="instructions"}}
     </div>
@@ -22,10 +21,10 @@
       {{input value=image id="image"}}
     </div>
 
-    <button {{action 'saveRecipe1'}}>Save</button>
+    <button {{action 'saveRecipe1'}} id="save" class="btn">Save</button>
   </form>
 </div>
   <p></p>
   {{else}}
-    <button {{action 'recipeFormShow'}}>New Recipe</button>
+    <button class="btn" id="recipe" {{action 'recipeFormShow'}}>Add Recipe</button>
   {{/if}}

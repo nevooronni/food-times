@@ -1,16 +1,78 @@
-<h1 class="jumbotron">food-times</h1>
-<h3 class="well">Welcome food-times</h3>
+<div id="well">
+  <h3 id="welcome">Welcome to food-times</h3>
+  <p id="paragraph">Related searches: drink restaurant fruit cooking
+  The best food  recipe on the Internet. Browse through high quality and royalty free stock of cakes, salads,<br/> beautifully decorated plates,  photos of vegetables, pizza, fruits and images of other objects in the kitchen.</p>
+</div>
 
-<hr>
+<button class="btn" id="heart"><a href="https://www.facebook.com" id="like"><i class="glyphicon glyphicon-heart"></i>Like</a></button>
+<button class="btn" id="license">License</button>
+{{#if showMedia}}
+<div id="media">
+  <div id="pos">
+    <a href="https://www.facebook.com">
+      <i class="fa fa-facebook-f"></i><h3 class="list">Facebook</h3>
+    </a>
+    <a href="https://www.twitter.com">
+      <i class="fa fa-twitter"> </i><h3 class="list">Twitter</h3>
+    </a>
+    <a href="https://www.pinterest.com">
+      <i class="fa fa-pinterest"></i><h3 class="list">Pinterest</h3>
+    </a>
+    <a href="https://www.gmail.com">
+      <i class="fa fa-gmail"></i><h3 class="list">Email</h3>
+    </a>
+  </div>
+</div>
+{{else}}
+  <button class="btn" id="share" {{action 'mediaFormShow'}}><i class="glyphicon glyphicon-share-alt"></i></button>
+{{/if}}
+
   {{new-recipe recipe=recipe}}
-<hr>
 
 <div>
-  <ul>
+  <div id="display">
     {{#each model as |recipe|}}
       {{recipe-tile recipe=recipe}}
     {{/each}}
-  </ul>
+  </div>
 
+</div>
 
+<div class="row fixed-bottom" id="footer">
+  <span id="services">
+    <h4 class="color">Services</h4>
+    <a class="color" href="#">Recipe Videos</a>
+    <a class="color" href="#">Newsletter</a>
+    <a class="color" href="#">Blog</a>
+    <a class="color" href="#">Designbreak</a>
+    <a class="color"href="#">API</a>
+    <a class="color" href="#">FAQ</a>
+  </span>
+  <span id="more">
+    <h4 class="color">More</h4>
+    <a class="color" href="#">Popular recipe</a>
+    <a class="color" href="#">High definition wallpapers</a>
+    <a class="color" href="#">recipe license</a>
+  </span>
+  <span id="photography">
+    <h4 class="color">Photos</h4>
+    <a  class="color" href="#">custom</a>
+    <a class="color" href="#">Specific</a>
+    <a class="color" href="#">Search</a>
+    <a class="color" href="#">Categories</a>
+    <a class="color" href="#">Photographer</a>
+    <a class="color" href="#">Popular</a>
+    <a class="color" href="#">News</a>
+    <a class="color" href="#">Favorites</a>
+    <a class="color" href="#">Newest</a>
+    <a class="color" href="#">All</a>
+  </span>
+  <span id="follow">
+    <h3 class="color">Follow Us:</h3>
+    <a href="#" class="facebook w3l" title="Go to Our Facebook Page"><i class="fa w3l fa-facebook-square" aria-hidden="true"></i></a>
+    <a href="#" class="twitter w3l" title="Go to Our Twitter Account"><i class="fa w3l fa-twitter-square" aria-hidden="true"></i></a>
+    <a href="#" class="googleplus w3" title="Go to Our Google Plus Account"><i class="fa w3 fa-google-plus-square" aria-hidden="true"></i></a>
+    <a href="#" class="instagram wthree" title="Go to Our Instagram Account"><i class="fa wthree fa-instagram" aria-hidden="true"></i></a>
+    <a href="#" class="youtube w3layouts" title="Go to Our Youtube Channel"><i class="fa w3layouts fa-youtube-square" aria-hidden="true"></i></a>
+  </span>
 </div>
